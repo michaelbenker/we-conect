@@ -1,15 +1,32 @@
 # Challenge
 
-Start Server
+## Responsive Menu
 
-### `node server.js`
+### Start Server
 
-Start App
+```
+node server.js
+```
 
-### `cd client`
+### Start App
 
-### `npm run`
+```
+cd client
+npm run
+```
 
-Start Cypress
+### Start Cypress
 
-### `./node_modules/.bin/cypress open`
+```
+./node_modules/.bin/cypress open
+```
+
+## Pancake Tester
+
+Testcases in "pancake-tests.txt
+
+### Run pancake Tester
+
+```
+node pancake-tester
+```
