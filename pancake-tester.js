@@ -2,7 +2,6 @@ const fs = require("fs");
 var readline = require("readline");
 
 var readLines = 0;
-var testCases;
 
 var rl = readline.createInterface({
   input: fs.createReadStream("pancake-tests.txt"),
@@ -12,7 +11,7 @@ var rl = readline.createInterface({
 rl.on("line", function (line) {
   // Line 1 = Number of tests
   if (readLines == 0) {
-    var testCases = parseInt(line);
+    testCases = parseInt(line);
   } else {
     // Line 2 ff
     // Left Part: s=row of pancakes
