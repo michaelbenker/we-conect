@@ -23,7 +23,7 @@ npm run
 
 ## Pancake Tester
 
-Testcases in "pancake-tests.txt
+Testcases in "pancake-tests.txt"
 
 ### Run pancake Tester
 
